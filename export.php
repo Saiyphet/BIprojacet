@@ -80,7 +80,7 @@ if (strlen($_SESSION['emplogin']) == 0) {
                                                     <th width="30">ຫ້ອງສອນນັກສຶກສາ</th>
                                                     <th width="120">ເນື້ອໃນການສອນ</th>
                                                     <th width="70">ໝາຍເຫດ</th>
-                                                    <th width="70">ໝາຍເຫດ</th>
+                                                    
                                                     <!-- <th width="120">ໝາຍເຫດ</th> -->
                                                 </tr>
     
@@ -122,15 +122,7 @@ if (strlen($_SESSION['emplogin']) == 0) {
                <td>
                    <?php echo htmlentities($result->Description); ?>
                </td>
-               <td>
-               <?php echo htmlentities($result->Description); ?>
-
-               </td>
                <td> <?php echo htmlentities(($result->AdminRemark)); ?></td>
-      
-               
-
-
 
            </tr>
 
